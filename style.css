@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-.name{
+.orange-color{
     color: orange;
 }
 
@@ -48,4 +48,36 @@ h1{
 
 .flexible{
     display: flex;
+}
+
+.exp-box{
+    box-shadow: 10px 10px 50px black;
+    width: 45%;
+    height: auto;
+    margin: 5%;
+    padding-left: 5%;
+    border-radius: 10px;
+
+}
+
+h2{
+    font-size: 40px;
+}
+
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.left-border-slice-one{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+.left-border-slice-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
 }
