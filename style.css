@@ -27,7 +27,6 @@ h1{
 }
 
 .top-banner{
-    display: flex;
     margin-bottom: 80px;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -45,4 +44,8 @@ h1{
     background-repeat: no-repeat;
     background-image: url(images/dream-bg.png);
     background-position: right;
+}
+
+.flexible{
+    display: flex;
 }
