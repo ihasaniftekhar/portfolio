@@ -2,3 +2,24 @@ body {
     font-family: 'Poppins', sans-serif;
 
 }
+
+.name{
+    color: orange;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.half-width{
+    width: 50%;
+    padding: 10px;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.top-banner{
+    display: flex;
+}
