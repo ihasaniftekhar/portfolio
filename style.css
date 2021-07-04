@@ -8,6 +8,10 @@ body {
 }
 
 h1{
+    font-size: 50px;
+}
+
+.second-header{
     font-size: 40px;
 }
 
@@ -22,4 +26,12 @@ h1{
 
 .top-banner{
     display: flex;
+}
+
+.fancy-button{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    background: linear-gradient(lightsalmon,tomato);
+    border-radius: 10px;
 }
