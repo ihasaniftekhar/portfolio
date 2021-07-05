@@ -52,16 +52,17 @@ h1{
 
 .exp-box{
     box-shadow: 10px 10px 50px black;
-    width: 45%;
+    width: 50%;
     height: auto;
     margin: 5%;
     padding-left: 5%;
+    padding-right: 5%;
     border-radius: 10px;
 
 }
 
 h2{
-    font-size: 40px;
+    font-size: 33px;
 }
 
 .exp-area{
@@ -80,4 +81,8 @@ h2{
     border-left: 7px solid;
     border-image: linear-gradient(lightsalmon,tomato);
     border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
