@@ -41,9 +41,14 @@ h1{
 }
 
 .dream-big{
+    margin-bottom: 80px;
     background-repeat: no-repeat;
     background-image: url(images/dream-bg.png);
     background-position: right;
+}
+
+.dream-big img{
+    width: 100%;
 }
 
 .flexible{
